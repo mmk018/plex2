@@ -28,16 +28,38 @@
     
     
 }
-.header2 {
+/* .header2 {
     position: absolute;
-    width: 1920px;
-    height: 750px;
+    /* width: 1920px;
+    height: 750px; 
     background-color:rgba(40, 42, 45, .7);
     margin: 0;
     padding: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+
+} */
+/* Patrick suggest */
+.header::before {
+    position: absolute;
+    background-color:rgba(40, 42, 45, .7);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: "";
+    
     
 
 }
+.wrapper_header {
+    z-index: 2;
+    position: relative;
+}
+/* End of Patrick suggest */
 .logo {
     display: inline;
     margin: 30px 40px 30px 150px;
@@ -154,12 +176,13 @@
     .header {
         width: 100vw;
         min-height: 1530px;
+        
         border:none;
     }
-    .header2 {
+    /* .header2 {
         width: 100vw;
         min-height: 1530px;
-        border: none;
+        border: none; */
     }
     .header-btn2 {
         width: 165px;
