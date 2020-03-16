@@ -7,6 +7,9 @@
 .container-big {
     width: 80%;
 }
+.hamburger {
+    display: none;
+}
 .container60 {
     width: 60%;
     margin: 0 auto;
@@ -132,9 +135,15 @@
     color: white;
     
 }
-@media all and (min-width:400px) and (max-width:1024px) {
+@media all and (min-width:300px) and (max-width:1024px) {
     .xs-hidden {
         display:none;
+    }
+    .hamburger {
+        display: block;
+        position: absolute;
+        top: 30px;
+        left: 30px;
     }
     .container-big {
         width: 80vw;
