@@ -153,12 +153,12 @@
     }
     .header {
         width: 100vw;
-        min-height: 1530px;
+        min-height: 1950px;
         border:none;
     }
     .header2 {
         width: 100vw;
-        min-height: 1530px;
+        min-height: 1950px;
         border: none;
     }
     .header-btn2 {
@@ -166,6 +166,7 @@
         text-align: center;
         font-size: 15px;
     }
+
     .logo {
         display: block;
         margin: 0 auto;
@@ -184,6 +185,10 @@
     }
     .medien-box {
         margin: 10px;
+    }
+    .medien-box .header-btn2 {
+        width: 200px;
+        padding: 10px 0;
     }
     .mobile_icon {
         font-size: 50px;
