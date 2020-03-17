@@ -135,6 +135,89 @@
     color: white;
     
 }
+.comments-box {
+    width: 100%;
+    height: 300px;
+    margin-top: 300px;
+}
+
+/* Loslegen Section */
+
+.loslegen {
+    background-color:#f9f9f9;
+    width: 100%;
+}
+.loslegen .container60 {
+    margin: 0 auto;
+    
+}
+.loslegen-tittle {
+    padding: 80px;
+    text-align: center;
+    font-size: 40px;
+
+}
+.loslegen h4 {
+    font-size: 20px;
+}
+
+.loslegen-boxen {
+    display: flex;
+    
+    justify-content: space-between;
+
+}
+.loslegen-box {
+    text-align: center;
+}
+.loslegen-img {
+    width: 150px;
+}
+
+.loslegen-p {
+    margin-top: 10px;
+    padding-bottom: 70px;
+}
+.loslegen-p span {
+    color: #e5a00d;
+}
+.why-p {
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+
+    
+}
+.why .loslegen-tittle {
+    padding-bottom: 20px;
+}
+.why .header-btn2 {
+    display: block;
+    text-align: center;
+    width: 100px;
+    padding: 15px 40px;
+    margin-top: 20px;
+    cursor: pointer;
+
+
+}
+.why .header-btn2:hover {
+    display: block;
+    text-align: center;
+    width: 100px;
+    padding: 15px 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color:#ff9900;
+
+
+}
+
+
+
+
+
+
 @media all and (min-width:300px) and (max-width:1024px) {
     .xs-hidden {
         display:none;
