@@ -180,6 +180,7 @@
 }
 .loslegen-p span {
     color: #e5a00d;
+    cursor: pointer;
 }
 .why-p {
     width: 65%;
@@ -212,6 +213,51 @@
 
 
 }
+.why-img {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 80px;
+
+    
+}
+.platforms {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    color: #b3bac1;
+    list-style-type: none;
+    padding-bottom: 70px;
+
+}
+.platform-box {
+    width: 10%;
+    text-align: center;
+    border-right: 1px solid;
+    cursor: pointer;
+}
+.platform-box:hover {
+    transform: scale(1.10);
+}
+.platform-box:last-child {
+    border: none;
+    color: #e5a00d;
+}
+.platform-p {
+    font-size: 12px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    
+}
+.media {
+    background-color: #f9f9f9;
+    padding: 90px 0;
+
+}
+
+
 
 
 
