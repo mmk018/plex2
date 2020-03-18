@@ -169,6 +169,7 @@
 }
 .loslegen-box {
     text-align: center;
+    width: 32%;
 }
 .loslegen-img {
     width: 150px;
@@ -251,8 +252,85 @@
     padding: 90px 0;
 
 }
+.media li {
+    font-family: 'Sacramento', cursive;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.media li:hover {
+    color: black;
+}
 /* Platform done */
 
+
+/* Section Ratings */
+.ratings {
+    background-color: #e5a00d;
+    padding: 80px 160px;
+    color: blanchedalmond;
+    display: flex;
+}
+.rating-box {
+    width: 25%;
+    
+}
+
+.rating-p i {
+    margin-right: 10px;
+    
+}
+.rating-reviews {
+    font-size: 16px;
+    opacity: 0.7;
+    margin: 0;
+
+}
+
+.rating-big-number {
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 70px;
+}
+.rating-question {
+    font-size: 30px;
+    font-weight: 700;
+}
+.btn-white {
+    background-color: #fff;
+    color: #e5a00d;
+    font-weight: 700;
+    width: 65%;
+    
+}
+
+.btn-white:hover {
+    background-color: #f9f9f9;
+
+    cursor: pointer;
+}
+.line {
+    margin-top: 5px;
+    border: 0.5px solid;
+    opacity: 0.2;
+}
+
+.rating-last-question {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    color: #f9f9f9;
+    opacity: 0.8;
+}
+
+.rating-last-question:hover {
+    color: white;
+    opacity: 1;
+}
+
+.rating-last-question i {
+    margin-right: 10px;
+}
 
 
 
