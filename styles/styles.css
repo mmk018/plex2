@@ -341,6 +341,10 @@
 
 /* Section Blog */
 
+.blog {
+    margin-bottom: 80px;
+}
+
 .blog .loslegen-tittle {
     padding: 80px;
     font-size: 40px;
@@ -423,7 +427,38 @@
     transform: rotate(0deg);
 
 }
+/* Blog section done */
 
+
+/* Section Footer */
+
+.footer {
+    background-color:#3f4245;
+    padding: 80px 0;
+    display: flex;
+    color: white;
+}
+.footer .logo {
+    margin: 0;
+}
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    
+}
+.footer-lists {
+    list-style-type: none;
+}
+.footer-lists li:first-child {
+   font-weight: bold;
+   font-size: 20px;
+   line-height: 50px;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
 
 
 
