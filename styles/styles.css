@@ -20,7 +20,7 @@
 
 .header {
     width: 1920px;
-    height: 750px;
+    height: 850px;
     border: 1px solid black;
     background:url("https://www.plex.tv/wp-content/uploads/2019/01/hero-homepage-2019-1800x1185.jpg") center center/ cover no-repeat;
     position: relative;
@@ -31,7 +31,7 @@
 .header2 {
     position: absolute;
     width: 1920px;
-    height: 750px;
+    height: 850px;
     background-color:rgba(40, 42, 45, .7);
     margin: 0;
     padding: 0;
@@ -97,7 +97,7 @@
     margin-top: 20px;
 }
 .medien-wrapper {
-    height: 300px;
+    height: 354px;
     border: 1px solid black;
     display: flex;
     margin-top: 108px;
@@ -195,20 +195,15 @@
 .why .header-btn2 {
     display: block;
     text-align: center;
-    width: 100px;
-    padding: 15px 40px;
+    width: 182px;
+    padding: 12px 22px;
     margin-top: 20px;
     cursor: pointer;
 
 
 }
 .why .header-btn2:hover {
-    display: block;
-    text-align: center;
-    width: 100px;
-    padding: 15px 40px;
-    margin-top: 20px;
-    cursor: pointer;
+    
     background-color:#ff9900;
 
 
