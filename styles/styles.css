@@ -450,14 +450,42 @@
 .footer-lists {
     list-style-type: none;
 }
+
+.footer-lists li {
+    
+    transition: 0.5s;
+    opacity: 0.7;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+.footer-lists li:hover {
+    color: #e5a00d;
+    transition: 0.5s;
+}
+
+
+
+
 .footer-lists li:first-child {
    font-weight: bold;
    font-size: 20px;
    line-height: 50px;
+   opacity: 1;
 }
 .flex {
     display: flex;
     justify-content: space-between;
+}
+
+.carousel-inner {
+    width: 30vw;
+    margin: 100px auto;
+    border-radius: 50%;
+    height: 300px;
+    object-fit:cover;
+    
 }
 
 
