@@ -1,0 +1,607 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: plexeina-bold,Helvetica,sans-serif; */
+    
+}
+
+.container-big {
+    width: 80%;
+    
+}
+.hamburger {
+    display: none;
+}
+.container60 {
+    width: 60%;
+    margin: 0 auto;
+}
+.yellow {
+    color:#e5a00d ;
+}
+
+.header {
+    width: 1920px;
+    height: 850px;
+    border: 1px solid black;
+    background:url("https://www.plex.tv/wp-content/uploads/2019/01/hero-homepage-2019-1800x1185.jpg") center center/ cover no-repeat;
+    position: relative;
+    color: white;
+    
+    
+}
+.header2 {
+    position: absolute;
+    width: 1920px;
+    height: 850px;
+    background-color:rgba(40, 42, 45, .7);
+    margin: 0;
+    padding: 0;
+    
+
+}
+.logo {
+    display: inline;
+    margin: 30px 40px 30px 150px;
+    font-size: 40px;
+    
+    
+
+}
+.logo img {
+    width: 100px;
+}
+.menu li {
+    display: inline;
+    margin: 30px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.menu li:hover {
+    color:  #e5a00d;
+    transition: 0.4s;
+}
+.menu li:last-child:hover {
+    color: white;
+    transition: 0.4s;
+    background: #ff9900 ;
+
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.menu {
+    margin-top: 50px;
+    margin-right: 100px;
+    
+}
+.xs-hidden {
+    display: block;
+}
+.header-btn {
+    background: #e5a00d;
+    padding: 10px 40px;
+    border-radius:20px;
+
+}
+.h1 {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 100px;
+}
+.main-info {
+    font-size: 20px;
+    opacity: 0.6;
+    text-align: center;
+    margin-top: 20px;
+}
+.medien-wrapper {
+    height: 354px;
+    border: 1px solid black;
+    display: flex;
+    margin-top: 108px;
+} .medien-box {
+    padding: 30px;
+    background-color:rgba(0,0,0,0.4);
+    margin-right: 2px;
+}
+.medien-box:hover {
+    padding: 30px;
+    background-color:white;
+    margin-right: 2px;
+    transition: 0.5s;
+    color: black;
+    cursor: pointer;
+    
+    transform: scale(1.06);
+    /* width: 101%; */
+    
+}
+.medien-box h2 {
+    margin-top: 20px;
+}
+.medien-p {
+    margin-top: 20px;
+    opacity: 0.7;
+}
+.header-btn2 {
+    display: inline-block;
+    
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: white;
+    
+}
+.comments-box {
+    width: 100%;
+    height: 300px;
+    margin-top: 300px;
+}
+
+/* Loslegen Section */
+
+.loslegen {
+    background-color:#f9f9f9;
+    width: 100%;
+}
+.loslegen .container60 {
+    margin: 0 auto;
+    
+}
+.loslegen-tittle {
+    padding: 80px;
+    text-align: center;
+    font-size: 40px;
+
+}
+.loslegen h4 {
+    font-size: 20px;
+}
+
+.loslegen-boxen {
+    display: flex;
+    
+    justify-content: space-between;
+
+}
+.loslegen-box {
+    text-align: center;
+    width: 32%;
+}
+.loslegen-img {
+    width: 150px;
+}
+
+.loslegen-p {
+    margin-top: 10px;
+    padding-bottom: 70px;
+}
+.loslegen-p span {
+    color: #e5a00d;
+    cursor: pointer;
+}
+.why-p {
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+
+    
+}
+.why .loslegen-tittle {
+    padding-bottom: 20px;
+}
+.why .header-btn2 {
+    display: block;
+    text-align: center;
+    width: 182px;
+    padding: 12px 22px;
+    margin-top: 20px;
+    cursor: pointer;
+
+
+}
+.why .header-btn2:hover {
+    
+    background-color:#ff9900;
+
+
+}
+.why-img {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 80px;
+
+    
+}
+.platforms {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    color: #b3bac1;
+    list-style-type: none;
+    padding-bottom: 70px;
+
+}
+.platform-box {
+    width: 10%;
+    text-align: center;
+    border-right: 1px solid;
+    cursor: pointer;
+}
+.platform-box:hover {
+    transform: scale(1.10);
+}
+.platform-box:last-child {
+    border: none;
+    color: #e5a00d;
+}
+.platform-p {
+    font-size: 12px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    
+}
+.media {
+    background-color: #f9f9f9;
+    padding: 90px 0;
+
+}
+.media li {
+    font-family: 'Sacramento', cursive;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.media li:hover {
+    color: black;
+}
+/* Platform done */
+
+
+/* Section Ratings */
+.ratings {
+    background-color: #e5a00d;
+    padding: 80px 160px;
+    color: blanchedalmond;
+    display: flex;
+}
+.rating-box {
+    width: 25%;
+    
+}
+
+.rating-p i {
+    margin-right: 10px;
+    
+}
+.rating-reviews {
+    font-size: 16px;
+    opacity: 0.7;
+    margin: 0;
+
+}
+
+.rating-big-number {
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 70px;
+}
+.rating-question {
+    font-size: 30px;
+    font-weight: 700;
+}
+.btn-white {
+    background-color: #fff;
+    color: #e5a00d;
+    font-weight: 700;
+    width: 65%;
+    
+}
+
+.btn-white:hover {
+    background-color: #f9f9f9;
+
+    cursor: pointer;
+}
+.line {
+    margin-top: 5px;
+    border: 0.5px solid;
+    opacity: 0.2;
+}
+
+.rating-last-question {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    color: #f9f9f9;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.rating-last-question:hover {
+    color: white;
+    opacity: 1;
+}
+
+.rating-last-question i {
+    margin-right: 10px;
+}
+.container80 {
+    width: 80%;
+    margin: 0 auto;
+}
+/* Rating section ready */
+
+/* Section Blog */
+
+.blog {
+    margin-bottom: 80px;
+}
+
+.blog .loslegen-tittle {
+    padding: 80px;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.blog-boxes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.blog-box {
+    position: relative;
+    width: 32%;
+    height: 300px;
+    
+}
+.blog-bg1 {
+    background:url("/img/blogbg1.jpg") center center/ cover no-repeat;
+}
+
+.blog-bg2 {
+    background:url("/img/blogbg2.jpg") center center/ cover no-repeat;
+}
+
+.blog-bg3 {
+    background:url("/img/blogbg3.jpg") center center/ cover no-repeat;
+}
+
+
+.blog-grey {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    background-color:rgba(40, 42, 45, .7);
+    margin: 0;
+    padding: 0;
+   
+}
+.blog .rating-question {
+    color: white;
+    position: absolute;
+    left: 40px;
+    bottom: 20px;
+    transition: 0.7s;
+
+}
+
+.blog-box:hover .rating-question {
+    color: white;
+    position: absolute;
+    left: 40px;
+    bottom: 80px;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+
+.blog .rating-question span {
+    font-size: 15px;
+    font-weight: 100;
+    opacity: 0.7;
+    
+}
+.blog-sparrow {
+    color: #e5a00d;
+    position: absolute;
+    left: 40px;
+    bottom: 20px;
+    transition: 0.7s;
+    opacity: 0;
+    transform: rotate(-90deg);
+
+}
+
+.blog-box:hover .blog-sparrow {
+    opacity: 1;
+    transition: 0.7s;
+    transform: rotate(0deg);
+
+}
+/* Blog section done */
+
+
+/* Section Footer */
+
+.footer {
+    background-color:#3f4245;
+    padding: 80px 0;
+    display: flex;
+    color: white;
+}
+.footer .logo {
+    margin: 0;
+}
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    
+}
+.footer-lists {
+    list-style-type: none;
+}
+
+.footer-lists li {
+    
+    transition: 0.5s;
+    opacity: 0.7;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+.footer-lists li:hover {
+    color: #e5a00d;
+    transition: 0.5s;
+}
+
+
+
+
+.footer-lists li:first-child {
+   font-weight: bold;
+   font-size: 20px;
+   line-height: 50px;
+   opacity: 1;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.carousel-inner {
+    width: 30vw;
+    margin: 100px auto;
+    border-radius: 50%;
+    height: 300px;
+    object-fit:cover;
+    
+}
+
+
+
+
+
+
+
+
+
+
+@media all and (min-width:300px) and (max-width:1024px) {
+    .xs-hidden {
+        display:none;
+    }
+    .hamburger {
+        display: block;
+        position: absolute;
+        top: 30px;
+        left: 5vw;
+    }
+    .container-big {
+        width: 80vw;
+    }
+    .logo {
+        padding-top: 30px;
+    }
+    .header {
+        width: 100vw;
+        min-height:2140px;
+        border:none;
+    }
+    .header2 {
+        width: 100vw;
+        min-height: 2140px;
+        border: none;
+    }
+    .header-btn2 {
+        width: 165px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .h1 {
+        font-size: 35px;
+    }
+
+    .logo {
+        display: block;
+        margin: 0 auto;
+    }
+    .container60 {
+        width: 60vw;
+    }
+    .medien-wrapper {
+        display: block;
+        margin: 0 auto;
+        align-items: center;
+        width: 90vw;
+        min-height: 100vh;
+        margin-top: 40px;
+        border:none;
+    }
+    .medien-box {
+        margin: 10px;
+    }
+    .medien-box .header-btn2 {
+        width: 200px;
+        padding: 10px 0;
+    }
+    .mobile_icon {
+        font-size: 50px;
+    }
+    .why .container60 {
+        width: 94%;
+    }
+    .why-p {
+        width: 94%;
+    }
+    .ratings {
+        flex-direction: column;
+        padding: 30px;
+        
+    }
+    .rating-box {
+        width: auto;
+        padding: 40px 0;
+    }
+    .rating-box .btn-white {
+        width: 68%;
+
+    }
+    .loslegen .container60 {
+        width: 100vw;
+    }
+    .loslegen-boxen {
+        flex-direction: column;
+        align-items: center;
+    }
+    .blog-boxes {
+        flex-direction: column;
+
+    }
+    .blog-box {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .carousel-inner {
+        width: 80vw;
+    }
+    .footer .flex, .footer-menu {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+
+}    
+
