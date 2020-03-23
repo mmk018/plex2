@@ -365,15 +365,15 @@
     
 }
 .blog-bg1 {
-    background:url("/img/blogbg1.jpg") center center/ cover no-repeat;
+    background:url("../img/blogbg1.jpg") center center/ cover no-repeat;
 }
 
 .blog-bg2 {
-    background:url("/img/blogbg2.jpg") center center/ cover no-repeat;
+    background:url("../img/blogbg2.jpg") center center/ cover no-repeat;
 }
 
 .blog-bg3 {
-    background:url("/img/blogbg3.jpg") center center/ cover no-repeat;
+    background:url("../img/blogbg3.jpg") center center/ cover no-repeat;
 }
 
 
