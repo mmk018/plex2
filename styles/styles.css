@@ -516,12 +516,12 @@
     }
     .header {
         width: 100vw;
-        min-height:2140px;
+        min-height:2350px;
         border:none;
     }
     .header2 {
         width: 100vw;
-        min-height: 2140px;
+        min-height: 2350px;
         border: none;
     }
     .header-btn2 {
@@ -584,6 +584,9 @@
     .loslegen-boxen {
         flex-direction: column;
         align-items: center;
+    }
+    .loslegen-box {
+        width: auto;
     }
     .blog-boxes {
         flex-direction: column;
